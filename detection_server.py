@@ -132,11 +132,4 @@ if __name__ == '__main__':
     except:
         load_model()
 
-    '''print('compiling Model.....')
-   
-    print('model compile sucessful')
-    print('loading weights into model, this might take sometime sir!')
-
-    print('loading weights sequence complete sir!')'''
-
     app.run(host= '0.0.0.0')
